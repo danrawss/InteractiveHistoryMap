@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Historical Map</title>
+
+    <!-- Meta tags for responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="css/leaflet.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center">Explore World History Through Interactive Maps</h1>
+        <p class="text-center lead">Click on any country to discover fascinating historical facts and events.</p>
+        <div id="map"></div>
+        <button class="btn btn-primary mt-3" onclick="locateUser()">Locate Me</button>
+        <button class="btn btn-primary mt-3" onclick="removeUserMarker()" style="margin-left: 10px;">Remove Marker</button>
+    </div>    
+
+    <!-- Canvas element for the Canvas API -->
+    <div class="container mt-4">
+        <canvas id="countryCanvas" width="600" height="400"></canvas>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

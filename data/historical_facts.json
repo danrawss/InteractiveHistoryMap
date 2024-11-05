@@ -1,0 +1,17 @@
+{
+    "United States": {
+        "description": "The United States declared independence from Great Britain on July 4, 1776. It has played a major role in global history, particularly during the 20th century as a world leader."
+    },
+    "France": {
+        "description": "France was a major player in the Age of Enlightenment, and it was also where the French Revolution began in 1789, which profoundly influenced modern political ideologies."
+    },
+    "India": {
+        "description": "India gained independence from British rule on August 15, 1947, following a long struggle led by figures such as Mahatma Gandhi, who advocated non-violence."
+    },
+    "China": {
+        "description": "China is one of the world's oldest civilizations, with a history of over 3,000 years. The Great Wall, built to protect against invasions, remains one of its most iconic symbols."
+    },
+    "United Kingdom": {
+        "description" : "Random fact about UK"
+    }
+}
