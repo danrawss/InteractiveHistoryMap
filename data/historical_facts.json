@@ -1,17 +1,584 @@
 {
-    "United States": {
-        "description": "The United States declared independence from Great Britain on July 4, 1776. It has played a major role in global history, particularly during the 20th century as a world leader."
+    "Afghanistan": {
+        "description": "Afghanistan has a history marked by a series of empires, including the Persian and Mongol empires. The country has faced significant conflict in recent decades, including the Soviet invasion in 1979 and ongoing internal conflicts."
     },
-    "France": {
-        "description": "France was a major player in the Age of Enlightenment, and it was also where the French Revolution began in 1789, which profoundly influenced modern political ideologies."
+    "Albania": {
+        "description": "Albania declared independence from the Ottoman Empire in 1912. It experienced a period of communist rule after World War II under Enver Hoxha, which ended in 1991 with the establishment of a democracy."
     },
-    "India": {
-        "description": "India gained independence from British rule on August 15, 1947, following a long struggle led by figures such as Mahatma Gandhi, who advocated non-violence."
+    "Algeria": {
+        "description": "Algeria gained independence from French colonial rule in 1962 after a long and brutal war of independence. It is the largest country in Africa by land area."
+    },
+    "Andorra": {
+        "description": "Andorra is a small, landlocked country located in the Pyrenees mountains between France and Spain. It has been a co-principality since 1278, ruled by leaders from France and Spain."
+    },
+    "Angola": {
+        "description": "Angola gained independence from Portugal in 1975. It then endured a prolonged civil war until 2002, which shaped much of its modern history."
+    },
+    "Antarctica": {
+        "description": "Antarctica is the only continent without a native human population. It is governed by an international treaty signed in 1959, which ensures it is used for peaceful and scientific purposes only."
+    },
+    "Antigua and Barbuda": {
+        "description": "Antigua and Barbuda gained independence from the United Kingdom in 1981. It is known for its many beaches and tourism industry."
+    },
+    "Argentina": {
+        "description": "Argentina declared independence from Spain on July 9, 1816. It is famous for its tango music, gauchos, and the influence of European immigrants."
+    },
+    "Armenia": {
+        "description": "Armenia is one of the world's oldest countries, with a history that includes being the first nation to adopt Christianity as its official religion in 301 AD."
+    },
+    "Australia": {
+        "description": "Australia was colonized by the British in 1788 as a penal colony. It became a federated nation in 1901 and is known for its diverse ecosystems and indigenous culture."
+    },
+    "Austria": {
+        "description": "Austria was a major European power, especially during the Habsburg dynasty. It became a republic in 1918 after the collapse of the Austro-Hungarian Empire."
+    },
+    "Azerbaijan": {
+        "description": "Azerbaijan was part of the Soviet Union until 1991, when it gained independence. It has a rich cultural history influenced by both European and Asian traditions."
+    },
+    "Bahamas": {
+        "description": "The Bahamas gained independence from the United Kingdom in 1973. It is known for its beautiful beaches and is a major tourist destination in the Caribbean."
+    },
+    "Bahrain": {
+        "description": "Bahrain declared independence from the United Kingdom in 1971. It was one of the first places in the region to discover oil, in 1932."
+    },
+    "Bangladesh": {
+        "description": "Bangladesh gained independence from Pakistan in 1971 after a brutal war. It was formerly known as East Pakistan before independence."
+    },
+    "Barbados": {
+        "description": "Barbados gained independence from the United Kingdom in 1966. It is known for its vibrant culture, music, and the annual Crop Over festival."
+    },
+    "Belarus": {
+        "description": "Belarus was part of the Soviet Union until 1991. It has been ruled by President Alexander Lukashenko since 1994, often referred to as 'Europe's last dictator'."
+    },
+    "Belgium": {
+        "description": "Belgium gained independence in 1830. It was a major colonial power in Africa and is known for its role in the formation of the European Union."
+    },
+    "Belize": {
+        "description": "Belize, formerly British Honduras, gained independence from the United Kingdom in 1981. It is known for its diverse ecosystems, including the Belize Barrier Reef."
+    },
+    "Benin": {
+        "description": "Benin, formerly known as Dahomey, gained independence from France in 1960. It has a rich history, including being a center of the West African slave trade."
+    },
+    "Bhutan": {
+        "description": "Bhutan is a small Himalayan kingdom known for its policy of Gross National Happiness. It transitioned to a constitutional monarchy in 2008."
+    },
+    "Bolivia": {
+        "description": "Bolivia gained independence from Spain in 1825. It is named after Simón Bolívar and has a rich indigenous heritage, with many different cultural groups."
+    },
+    "Bosnia and Herzegovina": {
+        "description": "Bosnia and Herzegovina declared independence from Yugoslavia in 1992. It was the site of a brutal civil war that lasted until 1995, marked by the Siege of Sarajevo and genocide in Srebrenica."
+    },
+    "Botswana": {
+        "description": "Botswana gained independence from the United Kingdom in 1966. It is known for its political stability and successful wildlife conservation efforts."
+    },
+    "Brazil": {
+        "description": "Brazil declared independence from Portugal on September 7, 1822. It is known for its rich cultural heritage, the Amazon rainforest, and the famous Carnival festival."
+    },
+    "Brunei": {
+        "description": "Brunei gained full independence from the United Kingdom in 1984. It is a small, wealthy country on the island of Borneo, primarily due to its oil and gas reserves."
+    },
+    "Bulgaria": {
+        "description": "Bulgaria became independent from the Ottoman Empire in 1908. It has a long history, including being part of the Eastern Bloc during the Cold War."
+    },
+    "Burkina Faso": {
+        "description": "Burkina Faso, formerly known as Upper Volta, gained independence from France in 1960. It was renamed by President Thomas Sankara in 1984."
+    },
+    "Burundi": {
+        "description": "Burundi gained independence from Belgium in 1962. It has faced ethnic conflict between the Hutu and Tutsi, similar to neighboring Rwanda."
+    },
+    "Cabo Verde": {
+        "description": "Cabo Verde, also known as Cape Verde, gained independence from Portugal in 1975. It is an island nation off the coast of West Africa known for its Creole Portuguese-African culture."
+    },
+    "Cambodia": {
+        "description": "Cambodia gained independence from France in 1953. It was later the site of the brutal Khmer Rouge regime, which ruled from 1975 to 1979."
+    },
+    "Cameroon": {
+        "description": "Cameroon gained independence from both France and the United Kingdom in 1960 and 1961 respectively. It is known for its diverse geography and culture."
+    },
+    "Canada": {
+        "description": "Canada became a self-governing dominion on July 1, 1867. It has a diverse cultural heritage and is known for its vast wilderness and natural beauty."
+    },
+    "Central African Republic": {
+        "description": "The Central African Republic gained independence from France in 1960. It has experienced political instability and conflict for much of its history."
+    },
+    "Chad": {
+        "description": "Chad gained independence from France in 1960. It has faced civil conflict and is part of the Sahel region, experiencing both desert and savanna climates."
+    },
+    "Chile": {
+        "description": "Chile gained independence from Spain in 1818. It is known for its long Pacific coastline and the Andes mountains, as well as its stable economy."
     },
     "China": {
-        "description": "China is one of the world's oldest civilizations, with a history of over 3,000 years. The Great Wall, built to protect against invasions, remains one of its most iconic symbols."
+        "description": "China is one of the world's oldest civilizations, with over 3,000 years of history. The construction of the Great Wall began in the 7th century BC to protect against invasions."
+    },
+    "Colombia": {
+        "description": "Colombia gained independence from Spain in 1819. It is known for its coffee production, biodiversity, and the long-running conflict involving the FARC."
+    },
+    "Comoros": {
+        "description": "Comoros gained independence from France in 1975. It is an island nation in the Indian Ocean known for its volcanic islands and history of political instability."
+    },
+    "Democratic Republic of the Congo": {
+        "description": "The Democratic Republic of the Congo, formerly Zaire, gained independence from Belgium in 1960. It has faced significant conflict, particularly during the Congo Wars."
+    },
+    "Republic of Congo": {
+        "description": "The Republic of the Congo gained independence from France in 1960. It is sometimes called Congo-Brazzaville to distinguish it from its larger neighbor."
+    },
+    "Costa Rica": {
+        "description": "Costa Rica gained independence from Spain in 1821. It is known for its political stability and is one of the few countries in the world without a standing army."
+    },
+    "Croatia": {
+        "description": "Croatia declared independence from Yugoslavia in 1991. It has a rich cultural heritage and beautiful Adriatic coastline, making it a popular tourist destination."
+    },
+    "Cuba": {
+        "description": "Cuba gained independence from Spain in 1898 after the Spanish-American War. It became a socialist state under Fidel Castro in 1959, which significantly shaped its modern history."
+    },
+    "Cyprus": {
+        "description": "Cyprus gained independence from the United Kingdom in 1960. The island has been divided since 1974, with the northern part occupied by Turkey."
+    },
+    "Czech Republic": {
+        "description": "The Czech Republic, formerly part of Czechoslovakia, became an independent nation in 1993 after the peaceful dissolution of Czechoslovakia."
+    },
+    "Denmark": {
+        "description": "Denmark is one of the oldest monarchies in the world, with a history dating back over 1,000 years. It was a major power in Northern Europe during the Viking Age."
+    },
+    "Djibouti": {
+        "description": "Djibouti gained independence from France in 1977. It is strategically located near the world's busiest shipping lanes, at the southern entrance to the Red Sea."
+    },
+    "Dominica": {
+        "description": "Dominica gained independence from the United Kingdom in 1978. It is known as the 'Nature Island of the Caribbean' due to its lush, mountainous rainforests."
+    },
+    "Dominican Republic": {
+        "description": "The Dominican Republic gained independence from Haiti in 1844. It shares the island of Hispaniola with Haiti and is known for its beaches and diverse culture."
+    },
+    "Ecuador": {
+        "description": "Ecuador gained independence from Spain in 1822. It is known for its diverse ecosystems, including the Galápagos Islands, which inspired Charles Darwin's theory of evolution."
+    },
+    "Egypt": {
+        "description": "Ancient Egypt is known for its incredible monuments such as the pyramids and the Sphinx. The civilization thrived along the Nile River for over 3,000 years, starting around 3100 BC."
+    },
+    "El Salvador": {
+        "description": "El Salvador gained independence from Spain in 1821. It endured a brutal civil war from 1980 to 1992, which significantly affected its modern history."
+    },
+    "Equatorial Guinea": {
+        "description": "Equatorial Guinea gained independence from Spain in 1968. It is one of the smallest countries in Africa and has significant oil reserves."
+    },
+    "Eritrea": {
+        "description": "Eritrea gained independence from Ethiopia in 1993 after a 30-year war. It is one of the youngest countries in Africa."
+    },
+    "Estonia": {
+        "description": "Estonia regained its independence from the Soviet Union in 1991. It is known for its digital society and advanced e-governance system."
+    },
+    "Eswatini": {
+        "description": "Formerly known as Swaziland, Eswatini is one of the last absolute monarchies in Africa. It gained independence from the United Kingdom in 1968."
+    },
+    "Ethiopia": {
+        "description": "Ethiopia is one of the oldest nations in the world, with a history that includes the ancient Kingdom of Aksum. It was never colonized, except during a brief Italian occupation."
+    },
+    "Fiji": {
+        "description": "Fiji gained independence from the United Kingdom in 1970. It is known for its beautiful islands, rich marine biodiversity, and vibrant culture."
+    },
+    "Finland": {
+        "description": "Finland declared independence from Russia in 1917. It is known for its high quality of life, extensive welfare system, and vast forests."
+    },
+    "France": {
+        "description": "France was a key player in the Age of Enlightenment and saw the French Revolution begin in 1789, which led to the rise of modern democratic and secular values."
+    },
+    "Gabon": {
+        "description": "Gabon gained independence from France in 1960. It is one of Africa's wealthier countries due to its oil and mineral resources."
+    },
+    "Gambia": {
+        "description": "The Gambia gained independence from the United Kingdom in 1965. It is the smallest country on mainland Africa, surrounded by Senegal."
+    },
+    "Georgia": {
+        "description": "Georgia declared independence from the Soviet Union in 1991. It has a rich history, including being a part of the ancient Silk Road."
+    },
+    "Germany": {
+        "description": "Germany was unified in 1871 and played a pivotal role in both World War I and World War II. The Berlin Wall, built in 1961, symbolized the Cold War division until its fall in 1989."
+    },
+    "Ghana": {
+        "description": "Ghana became the first African country to gain independence from colonial rule in 1957. It was formerly known as the Gold Coast."
+    },
+    "Greece": {
+        "description": "Ancient Greece is considered the cradle of Western civilization, giving rise to democracy, philosophy, and the Olympic Games. It was composed of city-states, including Athens and Sparta."
+    },
+    "Grenada": {
+        "description": "Grenada gained independence from the United Kingdom in 1974. It is known as the 'Island of Spice' due to its production of nutmeg and mace."
+    },
+    "Greenland": {
+        "description": "Greenland is the world's largest island that is not a continent, with around 80% of its surface covered by ice. It is also an autonomous territory of Denmark."
+    },
+    "Guatemala": {
+        "description": "Guatemala gained independence from Spain in 1821. It has a rich Mayan heritage, with many archaeological sites, including Tikal."
+    },
+    "Guinea": {
+        "description": "Guinea gained independence from France in 1958. It has significant natural resources, including bauxite, used to produce aluminum."
+    },
+    "Guinea Bissau": {
+        "description": "Guinea-Bissau gained independence from Portugal in 1973. It has faced political instability and numerous coups since independence."
+    },
+    "Guyana": {
+        "description": "Guyana gained independence from the United Kingdom in 1966. It is the only English-speaking country in South America and has a diverse cultural heritage."
+    },
+    "Haiti": {
+        "description": "Haiti became the first independent nation in Latin America and the Caribbean, and the first post-colonial independent Black-led nation in the world, in 1804."
+    },
+    "Honduras": {
+        "description": "Honduras gained independence from Spain in 1821. It is known for its rich natural resources, including minerals, coffee, and tropical fruit."
+    },
+    "Hungary": {
+        "description": "Hungary became a republic in 1989 after decades of communist rule. It has a rich history, including the Austro-Hungarian Empire."
+    },
+    "Iceland": {
+        "description": "Iceland gained independence from Denmark in 1944. It is known for its unique landscapes, including volcanoes, geysers, and hot springs."
+    },
+    "India": {
+        "description": "India gained independence from British colonial rule on August 15, 1947, following a nonviolent resistance movement led by Mahatma Gandhi and other freedom fighters."
+    },
+    "Indonesia": {
+        "description": "Indonesia declared independence from the Netherlands on August 17, 1945. It is known for its diverse culture, with thousands of islands and hundreds of distinct languages."
+    },
+    "Iran": {
+        "description": "Iran, historically known as Persia, has a rich history spanning thousands of years, including the Persian Empire and the Islamic Revolution in 1979."
+    },
+    "Iraq": {
+        "description": "Iraq, home to the ancient Mesopotamian civilizations, gained independence from British rule in 1932. It has experienced significant conflict in recent decades."
+    },
+    "Ireland": {
+        "description": "Ireland gained independence from the United Kingdom in 1922, becoming the Irish Free State. It became a fully independent republic in 1949."
+    },
+    "Israel": {
+        "description": "Israel was established in 1948 as a homeland for the Jewish people. It has a complex history, marked by conflict with its neighbors and ongoing peace efforts."
+    },
+    "Italy": {
+        "description": "Italy was the center of the Roman Empire, which was founded in 27 BC and influenced much of Western culture, law, and politics. It is also the birthplace of the Renaissance."
+    },
+    "Jamaica": {
+        "description": "Jamaica gained independence from the United Kingdom in 1962. It is known for its music, particularly reggae, and its vibrant culture."
+    },
+    "Japan": {
+        "description": "Japan is known for its unique culture and history, including the samurai era and the Meiji Restoration in 1868, which marked the country's modernization."
+    },
+    "Jordan": {
+        "description": "Jordan gained independence from the United Kingdom in 1946. It is home to the ancient city of Petra, one of the New Seven Wonders of the World."
+    },
+    "Kazakhstan": {
+        "description": "Kazakhstan was the last of the Soviet republics to declare independence in 1991. It is the world's largest landlocked country and has significant oil and mineral resources."
+    },
+    "Kenya": {
+        "description": "Kenya gained independence from British colonial rule in 1963. It is known for its rich wildlife, national parks, and the Great Rift Valley."
+    },
+    "Kiribati": {
+        "description": "Kiribati gained independence from the United Kingdom in 1979. It is composed of 33 atolls and islands in the central Pacific Ocean, and faces significant challenges due to rising sea levels."
+    },
+    "Kuwait": {
+        "description": "Kuwait gained independence from the United Kingdom in 1961. It was invaded by Iraq in 1990, leading to the Gulf War."
+    },
+    "Kyrgyzstan": {
+        "description": "Kyrgyzstan gained independence from the Soviet Union in 1991. It is known for its mountainous terrain and nomadic culture."
+    },
+    "Laos": {
+        "description": "Laos gained independence from France in 1953. It is the only landlocked country in Southeast Asia and has a rich cultural heritage influenced by Buddhism."
+    },
+    "Latvia": {
+        "description": "Latvia regained its independence from the Soviet Union in 1991. It has a rich cultural history, with influences from both Eastern and Western Europe."
+    },
+    "Lebanon": {
+        "description": "Lebanon gained independence from France in 1943. It has a diverse culture influenced by various civilizations, including Phoenician, Roman, and Ottoman."
+    },
+    "Lesotho": {
+        "description": "Lesotho, a landlocked country entirely surrounded by South Africa, gained independence from the United Kingdom in 1966. It is known for its mountainous terrain."
+    },
+    "Liberia": {
+        "description": "Liberia, founded by freed American slaves, declared independence in 1847. It is Africa's oldest republic."
+    },
+    "Libya": {
+        "description": "Libya gained independence from Italy in 1951. It experienced significant political turmoil during and after the rule of Muammar Gaddafi, who was overthrown in 2011."
+    },
+    "Liechtenstein": {
+        "description": "Liechtenstein is one of the world's smallest countries. It became fully independent in 1866 and is known for its strong financial sector."
+    },
+    "Lithuania": {
+        "description": "Lithuania regained its independence from the Soviet Union in 1990. It was the first Soviet republic to declare independence."
+    },
+    "Luxembourg": {
+        "description": "Luxembourg is one of the smallest countries in Europe. It has a long history of being influenced by its larger neighbors and is a founding member of the European Union."
+    },
+    "Madagascar": {
+        "description": "Madagascar gained independence from France in 1960. It is known for its unique biodiversity, with many species found nowhere else on Earth."
+    },
+    "Malawi": {
+        "description": "Malawi, formerly known as Nyasaland, gained independence from the United Kingdom in 1964. It is known as the 'Warm Heart of Africa' due to the friendliness of its people."
+    },
+    "Malaysia": {
+        "description": "Malaysia gained independence from the United Kingdom in 1957. It is known for its diverse culture, tropical rainforests, and economic development."
+    },
+    "Maldives": {
+        "description": "The Maldives gained independence from the United Kingdom in 1965. It is an island nation in the Indian Ocean, known for its tourism and vulnerable to rising sea levels."
+    },
+    "Mali": {
+        "description": "Mali gained independence from France in 1960. It was once home to the wealthy Mali Empire, known for its historical cities like Timbuktu."
+    },
+    "Malta": {
+        "description": "Malta gained independence from the United Kingdom in 1964. It has a rich history influenced by various civilizations, including the Phoenicians, Romans, and Knights of St. John."
+    },
+    "Marshall Islands": {
+        "description": "The Marshall Islands gained independence from the United States in 1986. It is a group of atolls and islands in the Pacific Ocean, known for its role in World War II and nuclear testing."
+    },
+    "Mauritania": {
+        "description": "Mauritania gained independence from France in 1960. It was the last country in the world to abolish slavery, officially outlawing it in 1981."
+    },
+    "Mauritius": {
+        "description": "Mauritius gained independence from the United Kingdom in 1968. It is known for its multicultural society and has one of Africa's highest Human Development Index scores."
+    },
+    "Mexico": {
+        "description": "Mexico gained independence from Spain on September 16, 1810. It is known for its ancient civilizations, including the Aztecs and Mayans, and their impressive archaeological sites."
+    },
+    "Micronesia": {
+        "description": "The Federated States of Micronesia gained independence from the United States in 1986. It consists of over 600 islands in the western Pacific Ocean."
+    },
+    "Moldova": {
+        "description": "Moldova declared independence from the Soviet Union in 1991. It has a rich cultural heritage influenced by both Romania and Russia."
+    },
+    "Monaco": {
+        "description": "Monaco is a small city-state on the French Riviera. It is known for its wealth, casinos, and as a tax haven."
+    },
+    "Mongolia": {
+        "description": "Mongolia declared independence from China in 1921. It is known for its vast steppes, nomadic culture, and the legacy of Genghis Khan."
+    },
+    "Montenegro": {
+        "description": "Montenegro declared independence from the State Union of Serbia and Montenegro in 2006. It is known for its beautiful Adriatic coastline and mountainous terrain."
+    },
+    "Morocco": {
+        "description": "Morocco gained independence from France and Spain in 1956. It has a rich cultural history, influenced by Berber, Arab, and European cultures."
+    },
+    "Mozambique": {
+        "description": "Mozambique gained independence from Portugal in 1975. It endured a long civil war that ended in 1992, and is known for its rich natural resources."
+    },
+    "Myanmar": {
+        "description": "Myanmar, formerly known as Burma, gained independence from the United Kingdom in 1948. It has faced significant political and ethnic conflicts, including military rule."
+    },
+    "Namibia": {
+        "description": "Namibia gained independence from South Africa in 1990. It is known for its vast desert landscapes, including the Namib Desert, which is one of the oldest in the world."
+    },
+    "Nauru": {
+        "description": "Nauru, the world's smallest island nation, gained independence from a UN trusteeship in 1968. It is known for its phosphate mining."
+    },
+    "Nepal": {
+        "description": "Nepal is known for its Himalayan mountains, including Mount Everest, the world's highest peak. It was never colonized and became a republic in 2008."
+    },
+    "Netherlands": {
+        "description": "The Netherlands became a major colonial power in the 16th and 17th centuries. It is known for its progressive social policies, windmills, and tulip fields."
+    },
+    "New Zealand": {
+        "description": "New Zealand gained independence from the United Kingdom in 1947. It is known for its indigenous Maori culture and stunning natural landscapes."
+    },
+    "Nicaragua": {
+        "description": "Nicaragua gained independence from Spain in 1821. It has a history of political instability, including a revolution in the late 20th century."
+    },
+    "Niger": {
+        "description": "Niger gained independence from France in 1960. It is one of the world's poorest countries and faces challenges such as desertification."
+    },
+    "Nigeria": {
+        "description": "Nigeria gained independence from British rule on October 1, 1960. It is Africa's most populous country and known for its diverse culture and significant oil reserves."
+    },
+    "North Macedonia": {
+        "description": "North Macedonia declared independence from Yugoslavia in 1991. It officially changed its name in 2019 to resolve a long-standing dispute with Greece."
+    },
+    "Norway": {
+        "description": "Norway gained independence from Sweden in 1905. It is known for its fjords, high standard of living, and extensive welfare state."
+    },
+    "Oman": {
+        "description": "Oman was never formally colonized and has a long history as a trading nation. It was unified in the 1970s under Sultan Qaboos."
+    },
+    "Pakistan": {
+        "description": "Pakistan gained independence from British India in 1947. It was created as a separate state for Muslims and has faced multiple conflicts with India."
+    },
+    "Palau": {
+        "description": "Palau gained independence from the United States in 1994. It is an island nation in the Pacific, known for its rich marine biodiversity."
+    },
+    "Panama": {
+        "description": "Panama declared independence from Colombia in 1903 with the support of the United States, which then built the Panama Canal, a major international waterway."
+    },
+    "Papua New Guinea": {
+        "description": "Papua New Guinea gained independence from Australia in 1975. It is known for its cultural diversity, with hundreds of ethnic groups and languages."
+    },
+    "Paraguay": {
+        "description": "Paraguay gained independence from Spain in 1811. It fought in the devastating War of the Triple Alliance (1864-1870) against Brazil, Argentina, and Uruguay."
+    },
+    "Peru": {
+        "description": "Peru gained independence from Spain in 1821. It is known for the ancient Incan city of Machu Picchu, one of the most famous archaeological sites in the world."
+    },
+    "Philippines": {
+        "description": "The Philippines gained independence from the United States on July 4, 1946. It was previously a Spanish colony and has a diverse cultural heritage."
+    },
+    "Poland": {
+        "description": "Poland regained independence in 1918 after being partitioned by neighboring powers for over a century. It has a long history marked by wars and resilience."
+    },
+    "Portugal": {
+        "description": "Portugal is one of the oldest nations in Europe, with a history of global exploration and colonization during the Age of Discovery in the 15th and 16th centuries."
+    },
+    "Qatar": {
+        "description": "Qatar gained independence from the United Kingdom in 1971. It has since become one of the wealthiest countries in the world due to its oil and gas reserves."
+    },
+    "Romania": {
+        "description": "Romania became a unified kingdom in 1859 and a republic after World War II. It has a rich history influenced by the Romans, Ottomans, and Austro-Hungarians."
+    },
+    "Russia": {
+        "description": "Russia was the heart of the Soviet Union, which was established in 1922 and dissolved in 1991. It has a rich history of tsars, revolutions, and space exploration."
+    },
+    "Rwanda": {
+        "description": "Rwanda gained independence from Belgium in 1962. It experienced a tragic genocide in 1994, but has since made significant progress in rebuilding its society."
+    },
+    "Saint Kitts and Nevis": {
+        "description": "Saint Kitts and Nevis gained independence from the United Kingdom in 1983. It is the smallest country in the Western Hemisphere, both in area and population."
+    },
+    "Saint Lucia": {
+        "description": "Saint Lucia gained independence from the United Kingdom in 1979. It is known for its stunning landscapes, including the iconic Pitons, two volcanic spires."
+    },
+    "Saint Vincent and the Grenadines": {
+        "description": "Saint Vincent and the Grenadines gained independence from the United Kingdom in 1979. It is known for its lush green hills and numerous islands."
+    },
+    "Samoa": {
+        "description": "Samoa gained independence from New Zealand in 1962. It was the first Pacific island country to become independent."
+    },
+    "San Marino": {
+        "description": "San Marino claims to be the world's oldest republic, founded in 301 AD. It is a landlocked microstate surrounded by Italy."
+    },
+    "Sao Tome and Principe": {
+        "description": "Sao Tome and Principe gained independence from Portugal in 1975. It is one of Africa's smallest countries, consisting of two main islands."
+    },
+    "Saudi Arabia": {
+        "description": "Saudi Arabia was founded in 1932 by Abdulaziz Ibn Saud. It is home to Islam's two holiest cities, Mecca and Medina, and has played a major role in global energy markets."
+    },
+    "Senegal": {
+        "description": "Senegal gained independence from France in 1960. It is known for its vibrant culture, including music, dance, and the historic city of Saint-Louis."
+    },
+    "Serbia": {
+        "description": "Serbia became an independent nation after the dissolution of the State Union of Serbia and Montenegro in 2006. It has a rich history, including being part of the former Yugoslavia."
+    },
+    "Seychelles": {
+        "description": "Seychelles gained independence from the United Kingdom in 1976. It is an archipelago of 115 islands in the Indian Ocean, known for its beautiful beaches and unique wildlife."
+    },
+    "Sierra Leone": {
+        "description": "Sierra Leone gained independence from the United Kingdom in 1961. It endured a brutal civil war from 1991 to 2002, and is known for its diamond resources."
+    },
+    "Singapore": {
+        "description": "Singapore gained independence from Malaysia in 1965. It transformed from a developing country to a global financial hub under the leadership of Lee Kuan Yew."
+    },
+    "Slovakia": {
+        "description": "Slovakia became an independent nation in 1993 after the peaceful dissolution of Czechoslovakia. It has a rich cultural history and beautiful natural landscapes."
+    },
+    "Slovenia": {
+        "description": "Slovenia declared independence from Yugoslavia in 1991. It was the first former Yugoslav republic to join the European Union."
+    },
+    "Solomon Islands": {
+        "description": "The Solomon Islands gained independence from the United Kingdom in 1978. It was the site of significant battles during World War II, including the Battle of Guadalcanal."
+    },
+    "Somalia": {
+        "description": "Somalia gained independence from Italy and the United Kingdom in 1960. It has faced significant challenges, including civil war and political instability."
+    },
+    "South Africa": {
+        "description": "South Africa is known for its struggle against apartheid, a system of racial segregation that ended in 1994, leading to Nelson Mandela becoming the country's first Black president."
+    },
+    "South Korea": {
+        "description": "South Korea was established in 1948 after the division of Korea. It is known for its rapid economic development, culture, and technological advancements."
+    },
+    "South Sudan": {
+        "description": "South Sudan gained independence from Sudan in 2011, making it the world's newest country. It has faced ongoing conflict and humanitarian challenges."
+    },
+    "Spain": {
+        "description": "Spain was a major colonial power in the 16th and 17th centuries, establishing vast territories in the Americas. The Spanish Civil War (1936-1939) led to decades of dictatorship under Francisco Franco."
+    },
+    "Sri Lanka": {
+        "description": "Sri Lanka, formerly known as Ceylon, gained independence from the United Kingdom in 1948. It endured a civil war between 1983 and 2009, and is known for its tea production."
+    },
+    "Sudan": {
+        "description": "Sudan gained independence from Egypt and the United Kingdom in 1956. It experienced a long civil war, leading to the secession of South Sudan in 2011."
+    },
+    "Suriname": {
+        "description": "Suriname gained independence from the Netherlands in 1975. It is known for its diverse culture, with influences from Africa, India, Java, and indigenous peoples."
+    },
+    "Sweden": {
+        "description": "Sweden was a major European power in the 17th century. It is known for its neutrality during major conflicts and its contributions to welfare and innovation."
+    },
+    "Switzerland": {
+        "description": "Switzerland has maintained a policy of neutrality for centuries. It is known for its banking system, precision industries, and as the birthplace of the Red Cross."
+    },
+    "Syria": {
+        "description": "Syria gained independence from France in 1946. It has faced significant turmoil since 2011, with an ongoing civil war that has caused widespread destruction and displacement."
+    },
+    "Tajikistan": {
+        "description": "Tajikistan gained independence from the Soviet Union in 1991. It experienced a civil war shortly after independence, lasting until 1997."
+    },
+    "United Republic of Tanzania": {
+        "description": "Tanzania was formed in 1964 through the union of Tanganyika, which gained independence from the United Kingdom in 1961, and Zanzibar, which gained independence in 1963."
+    },
+    "Thailand": {
+        "description": "Thailand is the only Southeast Asian country that was never colonized by a European power. It is known for its rich cultural heritage and monarchy."
+    },
+    "Timor-Leste": {
+        "description": "Timor-Leste, also known as East Timor, gained independence from Indonesia in 2002 after a long struggle. It was previously a Portuguese colony."
+    },
+    "Togo": {
+        "description": "Togo gained independence from France in 1960. It is known for its diverse culture and history, with influences from both African and colonial traditions."
+    },
+    "Tonga": {
+        "description": "Tonga, a Polynesian kingdom, never lost its sovereignty to a foreign power. It became a constitutional monarchy in 2010."
+    },
+    "Trinidad and Tobago": {
+        "description": "Trinidad and Tobago gained independence from the United Kingdom in 1962. It is known for its annual Carnival, a vibrant celebration of music and dance."
+    },
+    "Tunisia": {
+        "description": "Tunisia gained independence from France in 1956. It was the birthplace of the Arab Spring in 2011, which led to significant political changes in the region."
+    },
+    "Turkey": {
+        "description": "Turkey was the center of the Ottoman Empire, which lasted from 1299 to 1923. It became a republic under Mustafa Kemal Atatürk, who modernized the country in the early 20th century."
+    },
+    "Turkmenistan": {
+        "description": "Turkmenistan gained independence from the Soviet Union in 1991. It is known for its large natural gas reserves and its strict government control."
+    },
+    "Tuvalu": {
+        "description": "Tuvalu gained independence from the United Kingdom in 1978. It is one of the smallest and least populous countries in the world, facing challenges from rising sea levels."
+    },
+    "Uganda": {
+        "description": "Uganda gained independence from the United Kingdom in 1962. It has a diverse culture and a history marked by the rule of Idi Amin in the 1970s."
+    },
+    "Ukraine": {
+        "description": "Ukraine declared independence from the Soviet Union in 1991. It has a rich cultural history and has faced significant geopolitical challenges, particularly in recent years."
+    },
+    "United Arab Emirates": {
+        "description": "The United Arab Emirates was founded in 1971 as a federation of seven emirates. It has rapidly developed into a major economic hub in the Middle East."
     },
     "United Kingdom": {
-        "description" : "Random fact about UK"
+        "description": "The United Kingdom has a long history of monarchy, empire, and innovation. It was a leading force during the Industrial Revolution, which began in the late 18th century."
+    },
+    "United States of America": {
+        "description": "The United States declared independence from Great Britain on July 4, 1776. It played a significant role in the development of modern democracy and has been a global superpower since the 20th century."
+    },
+    "Uruguay": {
+        "description": "Uruguay gained independence from Brazil in 1825. It is known for its stable democracy, progressive social policies, and high quality of life."
+    },
+    "Uzbekistan": {
+        "description": "Uzbekistan gained independence from the Soviet Union in 1991. It has a rich history, including being a key part of the ancient Silk Road trade route."
+    },
+    "Vanuatu": {
+        "description": "Vanuatu gained independence from a British-French condominium in 1980. It is an island nation in the South Pacific known for its cultural diversity and active volcanoes."
+    },
+    "Vatican City": {
+        "description": "Vatican City, the smallest independent state in the world, was established in 1929. It is the spiritual and administrative center of the Roman Catholic Church."
+    },
+    "Venezuela": {
+        "description": "Venezuela gained independence from Spain in 1811. It has vast oil reserves, but has faced significant economic and political challenges in recent years."
+    },
+    "Vietnam": {
+        "description": "Vietnam gained independence from France in 1954 after the First Indochina War. It later endured the Vietnam War, which ended in 1975, leading to the reunification of the country."
+    },
+    "Yemen": {
+        "description": "Yemen was unified in 1990 after the merger of North Yemen and South Yemen. It has faced significant conflict and humanitarian crises in recent years."
+    },
+    "Zambia": {
+        "description": "Zambia gained independence from the United Kingdom in 1964. It was formerly known as Northern Rhodesia and is known for its rich mineral resources, particularly copper."
+    },
+    "Zimbabwe": {
+        "description": "Zimbabwe gained independence from the United Kingdom in 1980. It was formerly known as Rhodesia and has faced significant economic challenges and political instability."
     }
 }

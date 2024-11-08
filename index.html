@@ -20,9 +20,19 @@
     <div class="container mt-4">
         <h1 class="text-center">Explore World History Through Interactive Maps</h1>
         <p class="text-center lead">Click on any country to discover fascinating historical facts and events.</p>
+         <!-- Map Container -->
         <div id="map"></div>
-        <button class="btn btn-primary mt-3" onclick="locateUser()">Locate Me</button>
-        <button class="btn btn-primary mt-3" onclick="removeUserMarker()" style="margin-left: 10px;">Remove Marker</button>
+
+        <!-- Button Row Container -->
+        <div class="button-row mt-3 d-flex justify-content-between align-items-center">
+            <div>
+                <button class="btn btn-primary" onclick="locateUser()">Locate Me</button>
+                <button class="btn btn-primary" onclick="removeUserMarker()" style="margin-left: 10px;">Remove Marker</button>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="countrySearch" class="form-control" placeholder="Search for a country">
+            </div>
+        </div>
     </div>    
 
     <!-- Canvas element for the Canvas API -->
@@ -31,9 +41,6 @@
     </div>
     
     <!-- Scripts -->
-    <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/leaflet.js"></script>
     <script src="js/main.js"></script>
 </body>

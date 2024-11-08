@@ -1,10 +1,9 @@
-// main.js
-
 // Initialize global variables
 var map;
 var historicalFacts = {};
 var geojsonLayer;
 var userMarker;
+var currentSpeechSynthesis;
 
 // Function to initialize the map
 function initMap() {
@@ -60,6 +59,22 @@ function initMap() {
     .catch(error => {
         console.error('Error loading data:', error);
     });
+
+    // Initialize search bar functionality
+    var searchInput = document.getElementById('countrySearch');
+    if (searchInput) {
+        searchInput.addEventListener('input', function() {
+            var searchText = searchInput.value.toLowerCase();
+            highlightCountryByName(searchText);
+        });
+    }  
+
+    // Add event listener to close popup and stop speech
+    map.on('popupclose', function() {
+        if (currentSpeechSynthesis) {
+            window.speechSynthesis.cancel();
+        }
+    });
 }
 
 // Define the default style for countries
@@ -114,6 +129,11 @@ function resetHighlight(e) {
 
 // Function to show country information with text-to-speech
 function showCountryInfo(countryName, latlng) {
+    // Stop any currently playing speech
+    if (currentSpeechSynthesis) {
+        window.speechSynthesis.cancel();
+    }
+
     var countryInfo = historicalFacts[countryName];
     if (countryInfo) {
         // Display information in a popup at the click location
@@ -124,8 +144,8 @@ function showCountryInfo(countryName, latlng) {
 
         // Use Web Speech API to speak the historical fact if supported
         if ('speechSynthesis' in window) {
-            var msg = new SpeechSynthesisUtterance(countryInfo.description);
-            window.speechSynthesis.speak(msg);
+            currentSpeechSynthesis = new SpeechSynthesisUtterance(countryInfo.description);
+            window.speechSynthesis.speak(currentSpeechSynthesis);
         } else {
             console.warn("Text-to-speech not supported in this browser.");
         }
@@ -160,10 +180,10 @@ function drawCountryOnCanvas(feature) {
 
     // Handle different geometry types
     if (type === 'Polygon') {
-        drawPolygon(ctx, coordinates);
+        drawPolygon(ctx, coordinates, canvas);
     } else if (type === 'MultiPolygon') {
         coordinates.forEach(function(polygon) {
-            drawPolygon(ctx, polygon);
+            drawPolygon(ctx, polygon, canvas);
         });
     } else {
         console.warn('Unsupported geometry type:', type);
@@ -171,7 +191,7 @@ function drawCountryOnCanvas(feature) {
 }
 
 // Helper function to draw a polygon on the canvas
-function drawPolygon(ctx, coordinates) {
+function drawPolygon(ctx, coordinates, canvas) {
     coordinates.forEach(function(ring) {
         ctx.beginPath();
         ring.forEach(function(coord, index) {
@@ -237,7 +257,21 @@ function removeUserMarker() {
     }
 }
 
+// Function to highlight a country by name from the search input
+function highlightCountryByName(searchText) {
+    geojsonLayer.eachLayer(function(layer) {
+        var countryName = layer.feature.properties.ADMIN.toLowerCase();
+        if (countryName.includes(searchText) && searchText !== "") {
+            highlightFeature({ target: layer });
+        } else {
+            resetHighlight({ target: layer });
+        }
+    });
+}
+
 // Initialize the map when the page loads
 window.onload = function() {
     initMap();
 };
+
+// run python -m http.server 8000 to start the server
