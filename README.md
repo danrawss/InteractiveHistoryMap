@@ -23,6 +23,4 @@ This project provides an interactive map that allows users to explore historical
    ```
 3. Open `http://localhost:8000` in your browser to view the project.
 
-## License
-This project is available under the MIT License.
 
